@@ -118,7 +118,7 @@
               "src": "@PROJECT_PATH@/assets/images/depositphotos-128076408-stock-illustration-woman-singing-microphone-128x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "#top",
               "title": "",
               "linkInNewWindow": false
             },
@@ -128,8 +128,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ВЕДУЩАЯ <br>ЧАСТНЫХ <br>ПРАЗДНИКОВ</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">МИЯ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-f\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#form1-d\">СВЯЗАТЬСЯ</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ВЕДУЩАЯ <br>ЗНАЧИМЫХ<br>МЕРОПРИЯТИЙ<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-f\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#form1-d\">СВЯЗАТЬСЯ</a></li>"
         },
         {
           "_name": "header1",
@@ -166,9 +166,9 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "МИЯ ЗАРРИНГ<br><br>",
-          "text": "Яркая актриса и ведущая программ на телеканалах \"НТВ\" <br>и \"Россия-1\", способная заменить собой целое шоу.<br>Близится важное событие? <br>Выберите остроумную и запоминающуюся медийную <br>ведущую <span style=\"line-height: 1.5;\">для Вашего праздника&nbsp;</span><br>и наслаждайтесь красотой и эмоциями вместе с друзьями!<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">УЗНАТЬ КАК</a> "
+          "title": "<br>МИЯ ЗАРРИНГ<br><br>",
+          "text": "Выберите остроумную и запоминающуюся медийную <br>ведущую для Вашего праздника <br>и наслаждайтесь красотой и эмоциями вместе с друзьями!<br>Яркая актриса и ведущая программ на телеканалах \"НТВ\" <br>и \"Россия-1\", способная заменить собой целое шоу.<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">ВЫБРАТЬ</a> "
         },
         {
           "_tags": [
