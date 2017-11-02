@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 18,
+    "uniqCompNum": 22,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -129,7 +129,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ВЕДУЩАЯ <br>ЗНАЧИМЫХ<br>МЕРОПРИЯТИЙ<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-f\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#form1-d\">СВЯЗАТЬСЯ</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-f\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#form1-d\">СВЯЗАТЬСЯ</a></li>"
         },
         {
           "_name": "header1",
@@ -151,7 +151,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bhs-1-2000x998.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bhs-2000x998.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -195,23 +195,6 @@
           "text": "<h4><span style=\"color: inherit; line-height: 1.1;\">Мия Зарринг:</span><br></h4><p>\"Ведущий - это клей, обволакивающий и соединяющий разрозненные детали мероприятия так, чтобы оно дышало и жило как единый организм. Если хотите, ведущий - это своего рода душа события. Подарите своему мероприятию красивую и достойную душу!\"</p>"
         },
         {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        },
-        {
           "_inherit": "features4",
           "_tags": [
             "Theme"
@@ -232,8 +215,8 @@
           "_anchor": "features7-0",
           "_params": {
             "iconsBgColor": "@primaryColor",
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -299,7 +282,7 @@
           },
           "title3": "Опыт",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Более 7 лет на сцене в качетве ведущей.<br>Проведено 427 мероприятий.<br>С 15 лет на телевидении в роли корреспондента и ведущей новостных и развлектельных программ.<br>6 лет в роли арт-директора и организатора мероприятий позволяют максимально облегчить работу организаторов и помочь в разработке сценария и программы.",
+          "caption3": "Более 7 лет на сцене в качестве ведущей.<br>Проведено более 400 &nbsp;мероприятий.<br>С 15 лет на телевидении в роли корреспондента и ведущей новостных и развлектельных программ.<br>6 лет опыта в роли арт-директора и организатора мероприятий позволяют максимально облегчить работу организаторов и помочь в разработке сценария и программы.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -356,208 +339,10 @@
           "_anchor": "buttons1-c",
           "_params": {
             "paddingTop": 1,
-            "paddingBottom": "4",
+            "paddingBottom": "2",
             "bgColor": "#efefef"
           },
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.instagram.com/miazarring/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОСМОТРЕТЬ INSTAGRAM ВЕДУЩЕЙ</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/10255203-10202794779223970-2514248859725070418-n-2000x1331-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/10255203-10202794779223970-2514248859725070418-n-2000x1331.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-2-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/foamline-all-2-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gvszt2szohk-2000x1334-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gvszt2szohk-2000x1334.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/14542475-859081540858555-7540210929905520446-o-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/14542475-859081540858555-7540210929905520446-o-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/14445205-859088190857890-2402507577779288348-o-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/14445205-859088190857890-2402507577779288348-o-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-1-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/foamline-all-1-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/vhahyjxrkg01-2000x1332-800x532.jpg",
-                "image": "@PROJECT_PATH@/assets/images/vhahyjxrkg01-2000x1332.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/foamline-all-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-3",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "text": "\"Мия! Восторг! Тебя нам послала сама судьба! Думали взять другого ведущего, рассматривали даже жорогих, но там столько неуместного пафоса, а тут ты - королева, красавица! У меня все друзья так и попадали, когда ты появилась на сцене! Мы боялись, что наши девушки будут ревновать, но ты с первых же минут так всех обаяла, что в курилке все только и восхищались тобой)) И отдельная благодарность за помощь с артистами и за отличную шоу-программу! Тот певец с голосом Элвиса и Магомаева - просто находка! Ну а когда меня чуть в торт не окунули всей толпой? А во время игры как все тянулись - не ожидал от них такого отвязного веселья! Это было очень круто! Я хотел порадовать и удивить друзей - я это сделал! Спасибо! Мия - ты не только настоящая звезда, но и человек, который умеет создать настроение!\"",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/13237654-1284105134952073-8831225780121436891-n-159x160.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "https://www.facebook.com/profile.php?id=100000577967847&fref=ts",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": true
-                }
-              },
-              "authorName": "Сергей Сюсюра",
-              "authorBio": "Юбиляр"
-            },
-            {
-              "text": "\"С ведущими девушками у нас всегда была напряжёнка. Задачка найти хорошую ведущую была не из простых. И тут интернет открывает мне прекрасную Мию.. И вот она любовь с первого взгляда!😍 Ты сильная Ведущая, с тобой приятно работать, а как весело!!! Ты всегда принимаешь полное участие в мероприятии с момента первого общения с клиентом и с зачатков самого проекта, помогая раскрывать его, так и клиента;)) Ты прекрасный импровизатор- сценарий для тебя не нужен. Ты чувствуешь публику, а она тебя. Твой ум, обаяние, талант, юмор и обворожительная красота- делают любое мероприятие незабываемым. Ты же поняла... Да?! Что я признаюсь тебе в любви!\"<h1></h1>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/190472-1303201957492-5347460-n-121x160.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "https://www.facebook.com/profile.php?id=100001269829526",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": true
-                }
-              },
-              "authorName": "Татьяна Косырева&nbsp;",
-              "authorBio": "Event-менеджер Barkstel"
-            },
-            {
-              "text": "<p>\"Мия - звезда во всех смыслах! Хотите облегчить себе работу и получить корпоратив на самом высоком уровне? Позаботьтесь о технике, площадке кейтеринге, а с остальным поможет Мия - у неё множество дружественных артистов по дружественным же ценам, ей не нужен сценарий, она и сама может его набросать, она прекрасно работает как в паре с соведущим, так и самостоятельно. И, главное, я точно уверена, какой бы факап не приключился на площадке, она обыграет его так, что никто не заметит) Чувственная, душевная, интеллигентная, эрудированная, лёгкая, яркая, с эффектными костюмами, &nbsp;с прекрасным чувством юмора и приятным тембром голоса - Мия удивительный артист, с которым мы отработали множество успешных мероприятий на самых разных уровнях.&nbsp;</p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/1012081-709488329081775-110421793-n-160x160.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "https://www.facebook.com/profile.php?id=100000618436530&fref=ts",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": true
-                }
-              },
-              "authorName": "Ольга Первушина",
-              "authorBio": "Директор по ключевым клиентам <br>event-агентства \"4 ROOMS\""
-            }
-          ],
-          "_anchor": "testimonials1-9",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "ОТЗЫВЫ О РАБОТЕ",
-          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-b",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ ВЕДУЩУЮ НА ПРАЗДНИК</a> "
         },
         {
           "_tags": [
@@ -684,6 +469,121 @@
           "allItem": "All"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10255203-10202794779223970-2514248859725070418-n-2000x1331-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/10255203-10202794779223970-2514248859725070418-n-2000x1331.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-2-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foamline-all-2-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gvszt2szohk-2000x1334-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gvszt2szohk-2000x1334.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/14542475-859081540858555-7540210929905520446-o-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14542475-859081540858555-7540210929905520446-o-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/14445205-859088190857890-2402507577779288348-o-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/14445205-859088190857890-2402507577779288348-o-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-1-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foamline-all-1-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vhahyjxrkg01-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vhahyjxrkg01-2000x1332.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/foamline-all-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foamline-all-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-3",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-b",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ ВЕДУЩУЮ НА ПРАЗДНИК</a> "
+        },
+        {
           "_inherit": "msg-box5",
           "_tags": [
             "Theme"
@@ -697,8 +597,8 @@
           "_anchor": "msg-box4-a",
           "_params": {
             "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -713,7 +613,7 @@
             "overlayColor": "#fff",
             "inverse": true,
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": true
           },
           "media": {
@@ -727,7 +627,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/xuVG7TMs04E?list=FLKw_wDN4p6i9BcTA_x-aKAw",
+              "src": "https://youtu.be/XObbK9u5Qfo",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -738,9 +638,142 @@
               "size": 250
             }
           },
-          "title": "Интервью Мии Зарринг для портала \"Ведущий.ru\"",
-          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.instagram.com/miazarring/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+          "title": "",
+          "text": "Мия Зарринг - ведущая реалити-шоу \"Я худею\" на канале НТВ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-l",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/2SVYjWcDazY",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "",
+          "text": "<p>Мия Зарринг - актриса \"Петросян-шоу\" на кнале \"Россия-1\"</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "\"Мия! Восторг! Тебя нам послала сама судьба! У меня все друзья так и попадали, когда ты появилась на сцене! Мы боялись, что наши девушки будут ревновать, но ты с первых же минут так всех обаяла, что в курилке все только и восхищались тобой)) И отдельная благодарность за помощь с артистами и за отличную шоу-программу! Тот певец с голосом Элвиса и Магомаева - просто находка! Ну а когда меня чуть в торт не окунули всей толпой? А во время игры как все оттянулись - не ожидал от них такого отвязного веселья! Это было очень круто! Я хотел порадовать и удивить друзей - я это сделал! Спасибо! Мия - ты не только настоящая звезда, но и человек, который умеет создать настроение!\"",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/39269-107554942774427-756364887-n-152x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "https://www.facebook.com/profile.php?id=100005597648553",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": true
+                }
+              },
+              "authorName": "Алексей Матс",
+              "authorBio": "Юбиляр, кастинг-директор, <br>владелец портала Akteria.ru"
+            },
+            {
+              "text": "\"С ведущими девушками у нас всегда была напряжёнка. Задачка найти хорошую ведущую была не из простых. И тут интернет открывает мне прекрасную Мию.. И вот она любовь с первого взгляда!😍 Ты сильная Ведущая, с тобой приятно работать, а как весело!!! Ты всегда принимаешь полное участие в мероприятии с момента первого общения с клиентом и с зачатков самого проекта, помогая раскрывать его, так и клиента;)) Ты прекрасный импровизатор- сценарий для тебя не нужен. Ты чувствуешь публику, а она тебя. Твой ум, обаяние, талант, юмор и обворожительная красота- делают любое мероприятие незабываемым. Ты же поняла... Да?! Что я признаюсь тебе в любви!\"<h1></h1>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/190472-1303201957492-5347460-n-121x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "https://www.facebook.com/tanya.kosyreva.3?fref=ts",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": true
+                }
+              },
+              "authorName": "Татьяна Косырева&nbsp;",
+              "authorBio": "Event-менеджер Barkstel"
+            },
+            {
+              "text": "<p>\"Мия - звезда во всех смыслах! Хотите облегчить себе работу и получить корпоратив на самом высоком уровне? Позаботьтесь о технике, площадке и кейтеринге, а с остальным поможет Мия - у неё множество дружественных артистов по дружественным же ценам, &nbsp;она прекрасно работает как в паре с соведущим, так и самостоятельно. И, главное, я точно уверена, какой бы факап не приключился на площадке, она обыграет его так, что никто не заметит) Чувственная, душевная, интеллигентная, лёгкая, яркая, с эффектными костюмами, &nbsp;с прекрасным чувством юмора и приятным тембром голоса - Мия удивительный артист, с которым мы отработали множество успешных мероприятий на самых разных уровнях.&nbsp;</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/images-160x160.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "https://www.facebook.com/profile.php?id=100004076775875&ref=br_rs",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": true
+                }
+              },
+              "authorName": "Ольга Щитова",
+              "authorBio": "Управляющая secret-place Angelov<br>"
+            }
+          ],
+          "_anchor": "testimonials1-9",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "ОТЗЫВЫ О РАБОТЕ",
+          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:"
         },
         {
           "_tags": [
@@ -755,8 +788,8 @@
           "_anchor": "form1-d",
           "_params": {
             "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -806,8 +839,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-f",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -834,7 +867,7 @@
             }
           },
           "text1": "<strong>Адрес</strong><br>Москва, ул. Малая Почтовая 2/2 стр 1<br>",
-          "text2": "<strong>Контакты</strong><br>\nEmail: mail@zarring.com<br>\nPhone: +7 (926) 545 7189<br><br>",
+          "text2": "<strong>Контакты</strong><br>\nEmail: mail@zarring.com<br>\nPhone: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
           "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\">В&nbsp;КОНТАКТЕ</a>"
         }
       ]
