@@ -516,6 +516,11 @@ h6,
 #msg-box4-a H3 {
   font-size: 20px;
 }
-#form1-d .form-control-label {
-  color: #232323;
+#header3-n .mbr-section-title,
+#header3-n .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-n SMALL {
+  color: #000000;
+  font-size: 30px;
 }

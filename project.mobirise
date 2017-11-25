@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 22,
+    "uniqCompNum": 24,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -129,7 +129,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ВЕДУЩАЯ <br>ЗНАЧИМЫХ<br>МЕРОПРИЯТИЙ<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-f\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#form1-d\">СВЯЗАТЬСЯ</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-n\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header3-n\">СВЯЗАТЬСЯ</a></li>"
         },
         {
           "_name": "header1",
@@ -168,7 +168,7 @@
           },
           "title": "<br>МИЯ ЗАРРИНГ<br><br>",
           "text": "Выберите остроумную и запоминающуюся медийную <br>ведущую для Вашего праздника <br>и наслаждайтесь красотой и эмоциями вместе с друзьями!<br>Яркая актриса и ведущая программ на телеканалах \"НТВ\" <br>и \"Россия-1\", способная заменить собой целое шоу.<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">ВЫБРАТЬ</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-n\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ ВЕДУЩУЮ НА МЕРОПРИЯТИЕ</a> "
         },
         {
           "_tags": [
@@ -571,19 +571,6 @@
           "allItem": "All"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-b",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgColor": "#fff"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#form1-d\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ ВЕДУЩУЮ НА ПРАЗДНИК</a> "
-        },
-        {
           "_inherit": "msg-box5",
           "_tags": [
             "Theme"
@@ -776,61 +763,28 @@
           "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "SMALL": {
+              "color": "#000000",
+              "font-size": "30px"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          },
-          "_anchor": "form1-d",
+          "_name": "header3",
+          "_anchor": "header3-n",
           "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "paddingTop": 1,
+            "paddingBottom": "2",
             "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "showMeta": true
           },
-          "title": "Есть вопросы? Пишите!",
-          "subtitle": "Задайте свой вопрос или напишите когда и как с вами связаться",
-          "form": {
-            "action": "mail@zarring.com",
-            "alerts": {
-              "success": "Я рада Вашем сообщению и в скором времени обязательно на него отвечу! "
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Имя*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Телефон"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Сообщение"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОБЩАТЬСЯ</a>"
+          "title": "Есть вопросы? Звоните!&nbsp;",
+          "meta": "+7 (926) 545 71 89 - Наталья, агент.&nbsp;"
         },
         {
           "_tags": [
@@ -866,7 +820,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Адрес</strong><br>Москва, ул. Малая Почтовая 2/2 стр 1<br>",
+          "text1": "",
           "text2": "<strong>Контакты</strong><br>\nEmail: mail@zarring.com<br>\nPhone: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
           "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\">В&nbsp;КОНТАКТЕ</a>"
         }
