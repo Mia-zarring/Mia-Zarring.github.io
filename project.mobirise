@@ -863,7 +863,7 @@
           },
           "text1": "",
           "text2": "<strong>For booking:&nbsp;</strong><br><strong><br></strong>Email: mail@zarring.com<br>Agent: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
-          "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\" class=\"text-info\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\" class=\"text-info\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\" class=\"text-info\">В&nbsp;КОНТАКТЕ</a>"
+          "text3": "<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\" class=\"text-info\" style=\"font-size: 0.875rem; background-color: rgb(0, 0, 0); line-height: 1.5;\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\" class=\"text-info\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\" class=\"text-info\">В&nbsp;КОНТАКТЕ</a>"
         }
       ]
     }
