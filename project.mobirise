@@ -620,6 +620,12 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "25px"
+            }
+          },
           "_anchor": "msg-box4-l",
           "_params": {
             "imageSize": 50,
@@ -662,13 +668,7 @@
           },
           "title": "",
           "text": "<p><i><b>Мия Зарринг - актриса \"Петросян-шоу\" &nbsp; &nbsp; &nbsp;&nbsp;</b></i><i style=\"line-height: 1.5;\"><b>на канале \"Россия-1</b>\"</i></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "font-size": "25px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -676,6 +676,14 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "25px"
+            }
+          },
           "_anchor": "msg-box4-q",
           "_params": {
             "imageSize": 50,
@@ -718,21 +726,24 @@
           },
           "title": "Oscar для Cablestar<br>Новогодний корпоратив",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">СМОТРЕТЬ ДР</a>",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "25px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">СМОТРЕТЬ ДР</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#cccccc"
+            },
+            ".card-footer > div": {
+              "color": "#ffffff"
+            }
+          },
           "testimonial": [
             {
               "text": "\"Мия! Восторг! Тебя нам послала сама судьба! У меня все друзья так и попадали, когда ты появилась на сцене! Мы боялись, что наши девушки будут ревновать, но ты с первых же минут так всех обаяла, что в курилке все только и восхищались тобой)) И отдельная благодарность за помощь с артистами и за отличную шоу-программу! Тот певец с голосом Элвиса и Магомаева - просто находка! Ну а когда меня чуть в торт не окунули всей толпой? А во время игры как все оттянулись - не ожидал от них такого отвязного веселья! Это было очень круто! Я хотел порадовать и удивить друзей - я это сделал! Спасибо! Мия - ты не только настоящая звезда, но и человек, который умеет создать настроение!\"",
@@ -809,24 +820,18 @@
             "showSubtitle": true
           },
           "title": "ОТЗЫВЫ О РАБОТЕ",
-          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#cccccc"
-            },
-            ".card-footer > div": {
-              "color": "#ffffff"
-            }
-          }
+          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "contacts1-f",
           "_params": {
             "paddingTop": "0",
@@ -858,12 +863,7 @@
           },
           "text1": "",
           "text2": "<strong>For booking:&nbsp;</strong><br><strong><br></strong>Email: mail@zarring.com<br>Agent: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
-          "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\" class=\"text-info\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\" class=\"text-info\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\" class=\"text-info\">В&nbsp;КОНТАКТЕ</a>",
-          "_styles": {
-            "STRONG": {
-              "color": "#ffffff"
-            }
-          }
+          "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\" class=\"text-info\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\" class=\"text-info\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\" class=\"text-info\">В&nbsp;КОНТАКТЕ</a>"
         }
       ]
     }
