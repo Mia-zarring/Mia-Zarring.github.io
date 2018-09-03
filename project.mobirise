@@ -6,8 +6,8 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
+        "primaryColor": "#262626",
+        "secondaryColor": "#484848",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 24,
+    "uniqCompNum": 27,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -36,6 +36,93 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-o",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bhs-9232-crop2-1400x990.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18308714-10213121231808646-922949997-n-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18308714-10213121231808646-922949997-n-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18336732-10213121231688643-1557201644-n-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18336732-10213121231688643-1557201644-n-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18337038-10213121230568615-1201228113-n-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18337038-10213121230568615-1201228113-n-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/18336604-10213121230648617-1878287963-n-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/18336604-10213121230648617-1878287963-n-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-g",
+          "articleLayout": false,
+          "allItem": "All"
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -60,13 +147,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#11161c"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#1f2832!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#252f3b"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -79,7 +166,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#262626!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -100,7 +187,7 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#252f3b",
+            "bgColor": "#000000",
             "fontSize": "1.1",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -115,7 +202,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/depositphotos-128076408-stock-illustration-woman-singing-microphone-128x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/zarring-black-w-copyright2-466x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "#top",
@@ -128,47 +215,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ВЕДУЩАЯ <br>ЗНАЧИМЫХ<br>МЕРОПРИЯТИЙ<br></a>",
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-7\">ПРЕИМУЩЕСТВА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#gallery1-3\">ФОТО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-a\">ВИДЕО</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials1-9\">ОТЗЫВЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-n\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#header3-n\">СВЯЗАТЬСЯ</a></li>"
-        },
-        {
-          "_name": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#efefef"
-            },
-            ".mbr-section-lead": {
-              "color": "#efefef",
-              "text-align": "center",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "header1-1",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bhs-2000x998.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "<br>МИЯ ЗАРРИНГ<br><br>",
-          "text": "Выберите остроумную и запоминающуюся медийную <br>ведущую для Вашего праздника <br>и наслаждайтесь красотой и эмоциями вместе с друзьями!<br>Яркая актриса и ведущая программ на телеканалах \"НТВ\" <br>и \"Россия-1\", способная заменить собой целое шоу.<br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#header3-n\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ ВЕДУЩУЮ НА МЕРОПРИЯТИЕ</a> "
         },
         {
           "_tags": [
@@ -180,19 +228,21 @@
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
               "font-size": "20px",
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#ffffff"
             },
             "P": {
-              "font-size": "16px"
+              "font-size": "16px",
+              "color": "#efefef"
             }
           },
           "_anchor": "content1-7",
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#efefef"
+            "bgColor": "#000000"
           },
-          "text": "<h4><span style=\"color: inherit; line-height: 1.1;\">Мия Зарринг:</span><br></h4><p>\"Ведущий - это клей, обволакивающий и соединяющий разрозненные детали мероприятия так, чтобы оно дышало и жило как единый организм. Если хотите, ведущий - это своего рода душа события. Подарите своему мероприятию красивую и достойную душу!\"</p>"
+          "text": "<h4>МИЯ ЗАРРИНГ</h4><p>Яркая актриса, DJ и ведущая программ на телеканалах \"НТВ\" и \"Россия-1\", способная заменить собой целое шоу.</p><p>Выберите остроумную и запоминающуюся медийную&nbsp;<span style=\"line-height: 1.5;\">ведущую для Вашего праздника&nbsp;</span><span style=\"line-height: 1.5;\">и наслаждайтесь красотой и эмоциями вместе с друзьями!</span></p><p><span style=\"line-height: 1.5;\"><br></span></p><p><span style=\"line-height: 1.5;\">\"Ведущий - это клей, обволакивающий и соединяющий разрозненные детали мероприятия так, чтобы оно дышало и жило как единый организм. Если хотите, ведущий - это своего рода душа события. Подарите своему мероприятию красивую и достойную душу!\"</span><br></p>"
         },
         {
           "_inherit": "features4",
@@ -204,23 +254,27 @@
               "color": "#bcbcbc"
             },
             ".iconbox": {
-              "background-color": "@primaryColor",
-              "border-color": "@primaryColor"
+              "background-color": "#363942",
+              "border-color": "#363942"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#efefef"
+            },
+            "H4": {
+              "color": "#ffffff"
             }
           },
           "_name": "features7",
           "_anchor": "features7-0",
           "_params": {
-            "iconsBgColor": "@primaryColor",
+            "iconsBgColor": "#363942",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -330,81 +384,6 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-c",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "2",
-            "bgColor": "#efefef"
-          },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.instagram.com/miazarring/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОСМОТРЕТЬ INSTAGRAM ВЕДУЩЕЙ</a> "
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/18308714-10213121231808646-922949997-n-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/18308714-10213121231808646-922949997-n-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/18336732-10213121231688643-1557201644-n-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/18336732-10213121231688643-1557201644-n-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/18337038-10213121230568615-1201228113-n-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/18337038-10213121230568615-1201228113-n-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/18336604-10213121230648617-1878287963-n-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/18336604-10213121230648617-1878287963-n-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ],
-            "spacing": 0,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#FFFFFF",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-g",
-          "articleLayout": false,
-          "allItem": "All"
         },
         {
           "_tags": [
@@ -579,17 +558,23 @@
           "_styles": {
             "H3": {
               "font-size": "20px"
+            },
+            "P": {
+              "color": "#efefef"
+            },
+            "B": {
+              "font-size": "25px"
             }
           },
           "_anchor": "msg-box4-a",
           "_params": {
             "imageSize": 50,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#F2F2F2",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -601,7 +586,7 @@
             "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -626,7 +611,7 @@
             }
           },
           "title": "",
-          "text": "Мия Зарринг - ведущая реалити-шоу \"Я худею\" на канале НТВ",
+          "text": "<b>Мия Зарринг - ведущая реалити-шоу </b><br><b>\"Я худею\" на канале НТВ</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
         },
         {
@@ -643,7 +628,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#F2F2F2",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -655,7 +640,7 @@
             "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media": {
             "image": {
@@ -676,8 +661,72 @@
             }
           },
           "title": "",
-          "text": "<p>Мия Зарринг - актриса \"Петросян-шоу\" на кнале \"Россия-1\"</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+          "text": "<p><i><b>Мия Зарринг - актриса \"Петросян-шоу\" &nbsp; &nbsp; &nbsp;&nbsp;</b></i><i style=\"line-height: 1.5;\"><b>на канале \"Россия-1</b>\"</i></p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "25px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-q",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=eFzPstaZEfY",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": "on"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Oscar для Cablestar<br>Новогодний корпоратив",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">СМОТРЕТЬ ДР</a>",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "25px"
+            }
+          }
         },
         {
           "_tags": [
@@ -742,7 +791,7 @@
           ],
           "_anchor": "testimonials1-9",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "0",
             "paddingBottom": "1",
             "count": 3,
             "showImages": true,
@@ -751,7 +800,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -760,31 +809,18 @@
             "showSubtitle": true
           },
           "title": "ОТЗЫВЫ О РАБОТЕ",
-          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:"
-        },
-        {
+          "subtitle": "Что думают о работе ведущей Мии Зарринг заказчики:",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".mbr-section-title": {
+              "color": "#ffffff"
             },
-            "SMALL": {
-              "color": "#000000",
-              "font-size": "30px"
+            ".mbr-section-subtitle": {
+              "color": "#cccccc"
+            },
+            ".card-footer > div": {
+              "color": "#ffffff"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-n",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "2",
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "Есть вопросы? Звоните!&nbsp;",
-          "meta": "+7 (926) 545 71 89 - Наталья, агент.&nbsp;"
+          }
         },
         {
           "_tags": [
@@ -793,12 +829,12 @@
           "_name": "contacts1",
           "_anchor": "contacts1-f",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "0",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -806,7 +842,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/18302440-10213121231168630-1343955655-n-128x160.jpg",
+              "src": "@PROJECT_PATH@/assets/images/zarring-black-w-copyright2-128x35.png",
               "width": 128,
               "active": true,
               "link": "",
@@ -821,8 +857,13 @@
             }
           },
           "text1": "",
-          "text2": "<strong>Контакты</strong><br>\nEmail: mail@zarring.com<br>\nPhone: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
-          "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\">В&nbsp;КОНТАКТЕ</a>"
+          "text2": "<strong>For booking:&nbsp;</strong><br><strong><br></strong>Email: mail@zarring.com<br>Agent: +7 (926) 545 7189 -<br>агент Наталья&nbsp;<br><br>",
+          "text3": "<strong>Ссылки</strong><br>\n<a href=\"https://www.instagram.com/miazarring/\" target=\"_blank\" class=\"text-info\">INSTAGRAM</a><br>\n<a href=\"https://www.facebook.com/zarring\" target=\"_blank\" class=\"text-info\">FACEBOOK</a><br>\n<a href=\"https://vk.com/zarring\" target=\"_blank\" class=\"text-info\">В&nbsp;КОНТАКТЕ</a>",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
