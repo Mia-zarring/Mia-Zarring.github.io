@@ -22,8 +22,10 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 27,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 28,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -555,78 +557,7 @@
             "Theme"
           ],
           "_name": "msg-box4",
-          "_styles": {
-            "H3": {
-              "font-size": "20px"
-            },
-            "P": {
-              "color": "#efefef"
-            },
-            "B": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "msg-box4-a",
-          "_params": {
-            "imageSize": 50,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/desktop.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "active": true,
-              "src": "https://youtu.be/XObbK9u5Qfo",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "",
-          "text": "<b>Мия Зарринг - ведущая реалити-шоу </b><br><b>\"Я худею\" на канале НТВ</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "msg-box4-l",
+          "_anchor": "msg-box4-r",
           "_params": {
             "imageSize": 50,
             "paddingTop": "1",
@@ -645,7 +576,7 @@
             "overlayColor": "#fff",
             "inverse": true,
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false
           },
           "media": {
@@ -655,7 +586,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/2SVYjWcDazY",
+              "src": "https://youtu.be/_sCmFzuHy2U",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -666,9 +597,17 @@
               "size": 250
             }
           },
-          "title": "",
-          "text": "<p><i><b>Мия Зарринг - актриса \"Петросян-шоу\" &nbsp; &nbsp; &nbsp;&nbsp;</b></i><i style=\"line-height: 1.5;\"><b>на канале \"Россия-1</b>\"</i></p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+          "title": "Шоурил телеведущей Мии Зарринг",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "font-size": "25px",
+              "color": "#efefef",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          }
         },
         {
           "_inherit": "msg-box5",
@@ -724,9 +663,130 @@
               "size": 250
             }
           },
-          "title": "Oscar для Cablestar<br>Новогодний корпоратив",
+          "title": "Oscar для Cablestar<br>Новогодний корпоратив&nbsp;<br>с ведущей Мией Зарринг",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">СМОТРЕТЬ ДР</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "msg-box4-l",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/2SVYjWcDazY",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "",
+          "text": "<p><i><b>Мия Зарринг - актриса \"Петросян-шоу\" &nbsp; &nbsp; &nbsp;&nbsp;</b></i><i style=\"line-height: 1.5;\"><b>на канале \"Россия-1</b>\"</i></p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "font-size": "20px"
+            },
+            "P": {
+              "color": "#efefef"
+            },
+            "B": {
+              "font-size": "25px"
+            }
+          },
+          "_anchor": "msg-box4-a",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/desktop.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/XObbK9u5Qfo",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "",
+          "text": "<b>Мия Зарринг - ведущая реалити-шоу </b><br><b>\"Я худею\" на канале НТВ</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/user/zarring/videos?view_as=subscriber\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">СМОТРЕТЬ ДРУГИЕ ВИДЕО-РОЛИКИ</a>"
         },
         {
           "_tags": [

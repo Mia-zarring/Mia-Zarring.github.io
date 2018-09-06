@@ -8,6 +8,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -510,6 +511,20 @@ h6,
 #features7-0 H4 {
   color: #ffffff;
 }
+#msg-box4-r H3 {
+  font-size: 25px;
+  color: #efefef;
+  font-family: 'Raleway', sans-serif;
+}
+#msg-box4-q H3 {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
+#msg-box4-l P {
+  color: #ffffff;
+  font-size: 25px;
+}
 #msg-box4-a H3 {
   font-size: 20px;
 }
@@ -517,15 +532,6 @@ h6,
   color: #efefef;
 }
 #msg-box4-a B {
-  font-size: 25px;
-}
-#msg-box4-l P {
-  color: #ffffff;
-  font-size: 25px;
-}
-#msg-box4-q H3 {
-  color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 25px;
 }
 #testimonials1-9 .mbr-section-title {
